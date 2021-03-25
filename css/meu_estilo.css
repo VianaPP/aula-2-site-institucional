@@ -47,3 +47,25 @@ ul{
 .li_home{
     color:orangered;
 }
+
+.borda_header{
+    height: 3px;
+    background-color: orangered;
+}
+
+.nav_inp_button{
+    padding-top: 10px;
+}
+
+.botao{
+    background-color: orangered;
+    border: 0;
+    color: white;
+    height: 22px;
+    
+}
+
+.nav_inp_button input{
+    border: 0;
+    height: 20px;
+}
