@@ -73,6 +73,7 @@ ul{
 
 .Apresentacao{
     background-image: url(../assets/team.png);
+    background-repeat: no-repeat;
     min-height: 400px;
     text-align: center;
 }
