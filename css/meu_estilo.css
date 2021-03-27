@@ -26,6 +26,7 @@ body{
     height: 100%;
     margin: 0 auto;
     max-width: 1150px;
+    color: white;
 }
 
 .cabecalho nav{
@@ -68,4 +69,76 @@ ul{
 .nav_inp_button input{
     border: 0;
     height: 20px;
+}
+
+.Apresentacao{
+    background-image: url(../assets/team.png);
+    min-height: 400px;
+    text-align: center;
+}
+
+.titulo_apresentacao{
+    margin-top: 0;
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+.caixa p{
+    font-size: 20px;
+}
+
+.div_diferenciais{
+    width: 100%;
+    height: 400px;
+}
+
+.div_imagens{
+    margin: 0 auto;
+    padding-top: 80px;
+    color: black;
+    height: 100%;
+    text-align: center;
+    max-width: 1150px;
+}
+
+.img_tamanho{
+    max-height: 150px;
+   
+}
+
+.div_missao{
+    margin-left: 100px;
+    height:100%;
+    width: 250px;
+    float: left;
+}
+
+.div_valores{
+    margin-left: 100px;
+    height:100%;
+    width: 250px;
+    float: left;
+}
+
+.div_visao{
+    margin-left: 100px;
+    height:100%;
+    width: 250px;
+    float: left;
+}
+
+.div_rodape{
+    background-color: orangered;
+    padding-top: 50px;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    margin: 0;
+    float: left;
+}
+
+.div_rodape .caixa h1{
+    margin: 0;
+    font-size: 20px;
+    
 }
