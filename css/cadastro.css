@@ -1,0 +1,41 @@
+body{
+    background-color: #ecf0f1;
+}
+
+.div_form{
+    float: left;
+    width: 50%;
+}
+
+.div_form .input_form{
+    width: 500px;
+    height: 30px;
+    border-radius: 3px;
+    border-width: 1px;    
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.div_form p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.btn-green{
+    color: white;
+    background-color: green;
+    margin: 20px 0px 50px 0px;
+    border: 0;
+    padding: 10px 20px;
+  
+    border-radius: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+.div_img_logo img{
+    margin-top: 100px;
+}
