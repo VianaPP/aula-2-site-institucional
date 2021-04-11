@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.2/chart.min.js"
+        integrity="sha512-dnUg2JxjlVoXHVdSMWDYm2Y5xcIrJg1N+juOuRi0yLVkku/g26rwHwysJDAMwahaDfRpr1AxFz43ktuMPr/l1A=="
+        crossorigin="anonymous"></script>
+    <title>Grafico 4</title>
+</head>
+
+<body>
+    <div style="width: 40%;">
+        <canvas id="chart" width="400" height="400"></canvas>
+    </div>
+</body>
+
+</html>
+
+
+<script>
+
+    const data = {
+        datasets: [{
+            label: 'First Dataset',
+            data: [{
+                x: 28,
+                y: 28,
+                r: 35
+            }, {
+                x: 36,
+                y: 26,
+                r: 70
+            }],
+            backgroundColor: 'rgb(255, 99, 132)'
+        }]
+    };
+
+    const config = {
+        type: 'bubble',
+        data: data,
+        options: {}
+    };
+
+    var myChart = new Chart(
+        document.getElementById('chart'),
+        config
+    );
+
+
+</script>
